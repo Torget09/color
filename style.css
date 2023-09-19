@@ -73,7 +73,7 @@ span, a {
 
 @media (max-width:500px) {
     .bt {
-        width: 100%;
+        width: 80%;
         margin-bottom: 10px;
     }
     .box {
@@ -82,17 +82,23 @@ span, a {
     .p {
         width: 100%;
     }
+    .asosiy {
+        margin: 0
+    }
 };
 @media (max-width:400px) {
     .bt {
-        width: 100%;
+        width: 35%;
     }
     .box {
         padding: 0;
     }
     .p {
-        width: 100%;
+        max-width: 100%;
         font-size: 15px
+    }
+    .asosiy {
+        margin: 0
     }
 };
 @media (max-width:300px) {
@@ -103,6 +109,25 @@ span, a {
         padding: 0;
     }
     .p {
+        max-width: 100%;
         font-size: 5px;
+    }
+    .asosiy {
+        margin: 0
+    }
+};
+@media (max-width:250px) {
+    .bt {
+        width: 100%;
+    }
+    .box {
+        padding: 0;
+    }
+    .p {
+        max-width: 100%;
+        font-size: 5px;
+    }
+    .asosiy {
+        margin: 0
     }
 };

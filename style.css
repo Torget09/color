@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.asosiy {
+    margin: 100px;
+    border: 3px solid blue;
+    background-color: rgb(45, 45, 46);
+}
+.boxes {
+    background-color: rgb(247, 230, 227);
+}
+.box {
+    display: none;
+    font-size: 35px;
+    line-height: 1.6;
+    padding: 30px;
+}
+.box1 {
+    background-color: tomato;
+}
+.box2 {
+    background-color: rgb(70, 70, 143);
+}
+.box3 {
+    background-color: dodgerblue;
+}
+.box4 {
+    background-color: darkorange;
+}
+.show {
+    display: block;
+}
+.bt {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkorchid;
+    margin: 0 10px;
+}   
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+.bt1 {
+    cursor: pointer;
+}
+.bt3 {
+    cursor: pointer;
+}
+.bt3 {
+    cursor: pointer;
+}
+.bt4 {
+    cursor: pointer;
+}
+.active {
+    background-color: green;
+}
+
+
+@media (max-width:500px) {
+    .bt {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    .p {
+        width: 100%;
+    }
+};
+@media (max-width:400px) {
+    .bt {
+        width: 100%;
+    }
+    .p {
+        width: 100%;
+        font-size: 15px
+    }
+};
+@media (max-width:400px) {
+    .bt {
+        width: 100%;
+    }
+    .p {
+        width: 100%;
+    }
+};

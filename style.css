@@ -73,8 +73,11 @@ span, a {
 
 @media (max-width:500px) {
     .bt {
-        width: 30%;
+        width: 100%;
         margin-bottom: 10px;
+    }
+    .box {
+        padding: 0;
     }
     .p {
         width: 100%;
@@ -83,17 +86,23 @@ span, a {
 @media (max-width:400px) {
     .bt {
         width: 100%;
+    }
+    .box {
+        padding: 0;
     }
     .p {
         width: 100%;
         font-size: 15px
     }
 };
-@media (max-width:400px) {
+@media (max-width:300px) {
     .bt {
         width: 100%;
     }
+    .box {
+        padding: 0;
+    }
     .p {
-        width: 100%;
+        font-size: 5px;
     }
 };
